@@ -22,5 +22,8 @@
 #define _LINUX_SWEEP2WAKE_H
 
 extern int s2w_switch;
+extern int gestures_switch;
+extern int vib_strength;
+void wake_pwrtrigger(void);
 
 #endif	/* _LINUX_SWEEP2WAKE_H */
